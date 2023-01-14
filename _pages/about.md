@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Artur Kuramshin"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,14 +12,12 @@ Hello! I am currently in my last year of undergraduate studies at the University
 
 Experience
 ======
-{% include base_path}
+{% include base_path %}
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:seperate;margin-right:auto;margin-left:auto;">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.experiences reversed %}
-    {% if post.show %}
-      {% include archive-single-cv.html %}
-    {% endif %}
+    {% include archive-single-cv.html %}
   {% endfor %}
 </tbody>
 </table>
