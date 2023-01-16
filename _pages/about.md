@@ -14,7 +14,7 @@ Experience
 ======
 {% include base_path %}
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<table id="experiences" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.experiences %}
     {% include archive-single-cv.html %}
@@ -25,7 +25,7 @@ Experience
 Projects
 ======
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<table id="projects" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.projects %}
     {% include archive-single-project.html %}
