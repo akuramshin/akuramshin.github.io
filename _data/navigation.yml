@@ -6,8 +6,8 @@ main:
   - title: "Projects"
     url: /#projects    
 
-  # - title: "Teaching"
-  #   url: /teaching/    
+  - title: "Hobbies"
+    url: /#hobbies   
     
   # - title: "Portfolio"
   #   url: /portfolio/

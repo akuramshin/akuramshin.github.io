@@ -193,7 +193,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-
+  hobbies:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -246,6 +248,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _hobbiesw
+  - scope:
+      path: ""
+      type: hobbies
     values:
       layout: single
       author_profile: true

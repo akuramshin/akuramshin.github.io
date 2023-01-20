@@ -1,0 +1,19 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<td style="padding:10px;vertical-align:top;border:0px;border-spacing:0px;font-size: 1.2em;">
+  <h3 style="margin:0;padding:0;">{{post.title}}</h3>
+  <p class="archive__item-excerpt" itemprop="description">{{ post.description | markdownify }}</p>
+</td>
+

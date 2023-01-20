@@ -33,6 +33,26 @@ Projects
 </tbody>
 </table>
 
+
+Hobbies
+======
+
+<table id="hobbies" style="table-layout:fixed;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<tbody>
+  <tr style="height: 200px;">
+    {% for post in site.hobbies %}
+      {% include archive-single-hobby-img.html %}
+    {% endfor %}
+  </tr>
+  <tr style="height: 200px;">
+    {% for post in site.hobbies %}
+      {% include archive-single-hobby-desc.html %}
+    {% endfor %}
+  </tr>
+</tbody>
+</table>
+
+
 Awards
 ======
 
