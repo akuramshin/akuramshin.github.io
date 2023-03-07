@@ -5,6 +5,8 @@ description: "PyTorch implementation of the cDCGAN for Google's 'Quick, Draw!' d
 about: '[Personal Project]'
 imgurl: 'quick_draw.png'
 links:
+  - name: report
+    link: https://github.com/akuramshin/cDCGAN-Quickdraw/blob/master/README.md
   - name: code
     link: https://github.com/akuramshin/cDCGAN-Quickdraw
 ---
