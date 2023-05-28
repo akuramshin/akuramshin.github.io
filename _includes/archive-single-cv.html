@@ -21,6 +21,11 @@
   </td>
   <td style="padding:0px;width:70%;vertical-align:middle;border:0px;border-spacing:0px;font-size: 1.2em;">
     <h3>{{post.title}}</h3>
+    {% if post.terms %}
+      {% for term in post.terms %}
+        <h6 style="color:#7a8288;margin:0;padding:0;">term </h6>
+      {% endfor %}
+    {% endif %}
     {% if post.end == "Present" %}
       <h6 style="color:#7a8288;margin:0;padding:0;">{{post.start | date: "%B %Y"}} - Present</h6>
     {% else %}
