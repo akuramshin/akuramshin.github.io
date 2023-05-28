@@ -22,7 +22,7 @@
   <td style="padding:0px;width:70%;vertical-align:middle;border:0px;border-spacing:0px;font-size: 1.2em;">
     <h3>{{post.title}}</h3>
     {% if post.terms %}
-      <h6 style="color:#7a8288;margin:0;padding:0;">{{ post.terms|join(', ') }}</h6>
+      <h6 style="color:#7a8288;margin:0;padding:0;">{{ post.terms|join(", ") }}</h6>
     {% else %}
       {% if post.end == "Present" %}
         <h6 style="color:#7a8288;margin:0;padding:0;">{{post.start | date: "%B %Y"}} - Present</h6>
