@@ -3,7 +3,7 @@ title: "Large Language Models for Chemistry Robotics"
 collection: publications
 excerpt: ''
 date: 2023-05-01
-venue: 'Under Review'
+venue: 'Autonomous Robots (2023)'
 paperurl: 'https://arxiv.org/abs/2212.09672'
 imgurl: 'clairify.jpg'
 show: true
