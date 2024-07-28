@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Artur Kuramshin"
 title_separator          : "-"
 name                     : &name "Artur Kuramshin"
-description              : &description "Computer Science student"
+description              : &description "MSc Student in Computer Science"
 url                      : https://akuramshin.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akuramshin.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Artur Kuramshin"
   avatar           : "profile.jpeg"
-  bio              : "Computer Science student at the University of Toronto, interested in Robotics and AI"
+  bio              : "MSc student at Mila/UdeM, interested in Robotics and ML"
   location         : "Toronto, Canada"
   employer         :
   pubmed           : 

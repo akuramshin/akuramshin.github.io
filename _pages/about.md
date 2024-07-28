@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am currently in my last year of undergraduate studies at the University of Toronto studying Computer Science with a specialization in Computer Vision. My interests lie at the intersection of robotics and machine learning. When I am not working you can find me training Brazilian Jiu-Jitsu, running, or [photographing abandoned buildings](https://www.instagram.com/urbanexplo/).
+Hello! I am a masters student at [Mila](https://mila.quebec/en) and the [Université de Montréal](https://www.umontreal.ca/en/), supervised by [Prof. Glen Berseth](https://neo-x.github.io/) at (REAL)[http://montrealrobotics.ca/]. My interests lie at the intersection of robotics and machine learning. 
+
+When I am not working you can find me hiking, running, or photographing abandoned buildings.
 
 Publications
 ======

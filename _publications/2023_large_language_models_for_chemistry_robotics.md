@@ -37,7 +37,7 @@ authors:
     link:
 links:
   - name: paper
-    link: https://akuramshin.github.io/files/AutonomousRobots_CLAIR.pdf
+    link: https://link.springer.com/article/10.1007/s10514-023-10136-2
   - name: project page
     link: https://ac-rad.github.io/clairify/
 ---
