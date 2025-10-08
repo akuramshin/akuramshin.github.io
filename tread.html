@@ -5,160 +5,342 @@ redirect_from:
 ---
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Task Robustness via Re-Labelling Vision-Action Robot Data">
+  <meta name="keywords" content="VLA, Data augmentation, Language following">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Robustness via Re-Labelling Vision-Action Robot Data</title>
 
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <title>Task Robustness via Re-Labelling Vision-Action Robot Data</title>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/tread_project/css/app.css">
-    <link rel="stylesheet" href="/tread_project/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    gtag('js', new Date());
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script defer src="/tread_project/js/fontawesome.all.min.js"></script>
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="/tread_site/static/css/bulma.min.css">
+  <link rel="stylesheet" href="/tread_site/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="/tread_site/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="/tread_site/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="/tread_site/static/css/index.css">
+  <link rel="icon" href="/tread_site/static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="/tread_site/static/js/fontawesome.all.min.js"></script>
+  <script src="/tread_site/static/js/bulma-carousel.min.js"></script>
+  <script src="/tread_site/static/js/bulma-slider.min.js"></script>
+  <script src="/tread_site/static/js/index.js"></script>
 </head>
+<body>
 
-<body style="padding: 5%; padding-top: min(15px, 5%); padding-bottom: min(5px, 5%); width: 100%">
-    <div class="container-lg text-center" style="max-width: 1500px; margin: auto;" id="main">
-        <header role="banner">
-            <div class="row">
-                <h2 class="col-md-12 text-center">
-                    Task Robustness via Re-Labelling Vision-Action Robot Data</br>
-                </h2>
-                <h4 class="col-md-12 text-center mb-4">
-                </h4>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Task Robustness via Re-Labelling <br>Vision-Action Robot Data</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://akuramshin.github.io/">Artur Kuramshin</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://ozgraslan.github.io/">Özgür Aslan</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cyrusneary.com/">Cyrus Neary</a><sup>1,2,3</sup>,</span>
+            <span class="author-block">
+              <a href="https://neo-x.github.io/">Glen Berseth</a><sup>1,2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Mila — Quebec AI Institute,</span>
+            <span class="author-block"><sup>2</sup>Université de Montréal,</span>
+            <span class="author-block"><sup>3</sup>The University of British Columbia</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=M6M5W0lmaY"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/real-lab/tread_annotations"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="/assets/fonts/hf-logo.svg" alt="Hugging Face Logo" style="height: 1.75em;">
+                  </span>
+                  <span>Data</span>
+                </a>
             </div>
-
-            <div class="row text-center">
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-12 text-center">
-                    <ul class="list-inline" style="margin:0px 0px 0px 0px;">
-                        <li><a style="font-size: calc(min(3vw, 15px))" href="https://akuramshin.github.io/">Artur
-                                Kuramshin¹ ²</a></li>
-                        <li><a style="font-size: calc(min(3vw, 15px))" href="https://ozgraslan.github.io/">Özgür
-                            Aslan¹ ²
-                                </a></li>
-                        <li><a style="font-size: calc(min(3vw, 15px))" href="https://www.cyrusneary.com//">Cyrus Neary¹ ² ³</a>
-                        </li>
-                        <li><a style="font-size: calc(min(3vw, 15px))" href="https://neo-x.github.io/">Glen Berseth¹ ²</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-12 text-center" style="font-size: calc(min(3vw, 15px))">
-                    ¹Mila — Quebec AI Institute&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;²Université de Montréal
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;³The University of British Columbia
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <span class="link-block" style="padding-top: 10px; padding-bottom: 10px">
-                    <!-- <a href="https://akuramshin.github.io/404" class="external-link button is-normal is-rounded is-dark"
-                        style="width: 80px; font-size: 15px">
-                        <span class="icon">
-                            <i class="ai ai-arxiv"></i>
-                        </span>
-                        <span>arXiv</span>
-                    </a> -->
-                    <a href="https://huggingface.co/datasets/real-lab/tread_annotations" class="external-link button is-normal is-rounded is-dark"
-                        style="width: 150px; font-size: 15px">
-                        <span class="icon">
-                            <img src="/assets/fonts/hf-logo.svg" alt="Hugging Face Logo" style="height: 1.75em;">
-                        </span>
-                        <span>Hugging Face</span>
-                    </a>
-                    <a href="https://openreview.net/forum?id=M6M5W0lmaY" class="external-link button is-normal is-rounded is-dark"
-                        style="width: 120px; font-size: 15px">
-                        <span class="icon">
-                            <i class="fas fa-fw fa-file"></i>
-                        </span>
-                        <span>Paper</span>
-                    </a>
-
-                    <!-- <a href="gallery.html" class="external-link button is-normal is-rounded is-dark"
-                        style="width: 120px; font-size: 15px">
-                        <span>Gallery</span>
-                    </a> -->
-                </span>
-            </div>
-        </header>
-
-
-        <main role="main">  
-            <div class="row">
-                <div class="">
-                    <h3 class="col-md-8 offset-md-2"> Abstract </h3>
-                    <p class="col-md-8 offset-md-2" style="text-align: left;">
-                        The recent trend in scaling models for robot
-                        learning has resulted in impressive policies that can perform
-                        various manipulation tasks and generalize to novel scenarios.
-                        However, these policies continue to struggle with following
-                        instructions, likely due to the limited linguistic and action
-                        sequence diversity in existing robotics datasets. This paper
-                        introduces <strong>T</strong>ask <strong>R</strong>obustness via R<strong>E</strong>-Labelling Vision-<strong>A</strong>
-                        Robot <strong>D</strong> (TREAD), a scalable framework that leverages
-                        large Vision-Language Models (VLMs) to augment existing
-                        robotics datasets without additional data collection, harnessing
-                        the transferable knowledge embedded in these models. Our
-                        approach leverages a pretrained VLM through three stages:
-                        generating semantic sub-tasks from original instruction labels
-                        and initial scenes, segmenting demonstration videos conditioned
-                        on these sub-tasks, and producing diverse instructions that
-                        incorporate object properties, effectively decomposing longer
-                        demonstrations into grounded language-action pairs. We further enhance robustness by augmenting the data with linguistically diverse versions of the text goals. Evaluations on LIBERO
-                        demonstrate that policies trained on our augmented datasets
-                        exhibit improved performance on novel, unseen tasks and
-                        goals. Our results show that TREAD enhances both planning
-                        generalization through trajectory decomposition and languageconditioned policy generalization through increased linguistic
-                        diversity.
-                    </p>
-                </div>
-            </div><br><br>
-
-            <div class="row">
-                <div class="">
-                    <h3 class="col-md-8 offset-md-2"> Coming Soon... </h3>
-                </div>
-            </div><br><br>
-
-            <br />
-            <br />
-
-            <br>
-            <!-- <section class="section" id="BibTeX">
-                <div class="col-md-8 offset-md-2 text-start">
-                    <h2 class="title" style="text-align: center;">BibTeX</h2>
-                                        <pre style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; text-align: left;"><code>@article{szymanowicz2025bolt3d,
-                    title={{Bolt3D: Generating 3D Scenes in Seconds}},
-                    author={Szymanowicz, Stanislaw and Zhang, Jason Y. and Srinivasan, Pratul
-                        and Gao, Ruiqi and Brussee, Arthur and Holynski, Aleksander and
-                        Martin-Brualla, Ricardo and Barron, Jonathan T. and Henzler, Philipp},
-                    journal={arXiv:2503.14445},
-                    year={2025}
-                    }</code></pre>
-                </div>
-            </section>
-            <br> -->
-            <div class="col-md-8 offset-md-2 text-start">
-                <h4>
-                    Acknowledgements
-                </h4>
-
-                <p class="text-justify" style="text-align: left;">
-                    Website template is borrowed from <a href="https://szymanowiczs.github.io/bolt3d">Bolt3D</a>.
-                    <br><br><br>
-                </p>
-            </div>
-
-            <br><br>
-        </main>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </div>
+</section>
 
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/teaser.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        free-viewpoint
+        portraits.
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The recent trend in scaling models for robot
+            learning has resulted in impressive policies that can perform
+            various manipulation tasks and generalize to novel scenarios.
+            However, these policies continue to struggle with following
+            instructions, likely due to the limited linguistic and action
+            sequence diversity in existing robotics datasets. 
+          </p>
+          <p>
+            This paper
+            introduces <strong>T</strong>ask <strong>R</strong>obustness via R<strong>E</strong>-Labelling Vision-<strong>A</strong>ction
+            Robot <strong>D</strong>ata (TREAD), a scalable framework that leverages
+            large Vision-Language Models (VLMs) to augment existing
+            robotics datasets without additional data collection, harnessing
+            the transferable knowledge embedded in these models. Our
+            approach leverages a pretrained VLM through three stages:
+            generating semantic sub-tasks from original instruction labels
+            and initial scenes, segmenting demonstration videos conditioned
+            on these sub-tasks, and producing diverse instructions that
+            incorporate object properties, effectively decomposing longer
+            demonstrations into grounded language-action pairs. We further enhance robustness by augmenting the data with linguistically diverse versions of the text goals. Evaluations on LIBERO
+            demonstrate that policies trained on our augmented datasets
+            exhibit improved performance on novel, unseen tasks and
+            goals. Our results show that TREAD enhances both planning
+            generalization through trajectory decomposition and languageconditioned policy generalization through increased linguistic
+            diversity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Coming Soon...</h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <!-- <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Visual Effects</h2>
+          <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="/tread_site/static/videos/dollyzoom-stacked.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div> -->
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <!-- <div class="column">
+        <h2 class="title is-3">Matting</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="/tread_site/static/videos/matting.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+    <!--/ Matting. -->
+
+    <!-- Concurrent Work. -->
+    <!-- <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            There's a lot of excellent work that was introduced around the same time as ours.
+          </p>
+          <p>
+            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+          </p>
+          <p>
+            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
+            both use deformation fields to model non-rigid scenes.
+          </p>
+          <p>
+            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
+          </p>
+          <p>
+            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{
+        kuramshin2025task,
+        title={Task Robustness via Re-Labelling Vision-Action Robot Data},
+        author={Artur Kuramshin and Ozgur Aslan and Cyrus Neary and Glen Berseth},
+        booktitle={Workshop on Making Sense of Data in Robotics: Composition, Curation, and Interpretability at Scale at CoRL 2025},
+        year={2025},
+        url={https://openreview.net/forum?id=M6M5W0lmaY}
+        }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
 </html>
