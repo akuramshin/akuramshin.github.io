@@ -1,0 +1,902 @@
+[
+    {
+        "gif_filename": "gif_0002_put_the_silver_pot_in_the_yellow_basket_5_motion_2.gif",
+        "video_name": "put_the_silver_pot_in_the_yellow_basket_5.mp4",
+        "video_key": "put_the_silver_pot_in_the_yellow_basket_5",
+        "sub_task": "Place the silver pot in the yellow basket",
+        "time_range": "00:08-00:10",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0003_put_redcube_in_pan_and_put_pan_on_stove_20_motion_0.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_20.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_20",
+        "sub_task": "Place the red cube in the pan",
+        "time_range": "00:00-00:06",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0006_put_pan_on_stove_and_put_blueberry_in_pan_10_motion_0.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_10.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_10",
+        "sub_task": "Grasp the pan from the back right burner.",
+        "time_range": "00:01-00:02",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0023_fold_the_cloth_from_bottom_to_top_12_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_12.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_12",
+        "sub_task": "Grasp a corner of the cloth",
+        "time_range": "00:00 - 00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0025_unfold_the_cloth_11_motion_0.gif",
+        "video_name": "unfold_the_cloth_11.mp4",
+        "video_key": "unfold_the_cloth_11",
+        "sub_task": "Grasp the orange cloth",
+        "time_range": "00:00 - 00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0031_move_the_orange_carrot_to_the_middle_of_the_table_11_motion_1.gif",
+        "video_name": "move_the_orange_carrot_to_the_middle_of_the_table_11.mp4",
+        "video_key": "move_the_orange_carrot_to_the_middle_of_the_table_11",
+        "sub_task": "Lift the orange carrot",
+        "time_range": "00:02 - 00:03",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0032_move_the_orange_carrot_to_the_middle_of_the_table_11_motion_2.gif",
+        "video_name": "move_the_orange_carrot_to_the_middle_of_the_table_11.mp4",
+        "video_key": "move_the_orange_carrot_to_the_middle_of_the_table_11",
+        "sub_task": "Move the orange carrot to the left",
+        "time_range": "00:03 - 00:05",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0035_put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_2_motion_1.gif",
+        "video_name": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_2.mp4",
+        "video_key": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_2",
+        "sub_task": "Place the egg in the pot",
+        "time_range": "00:09-00:12",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0039_put_the_yellow_block_on_top_of_the_red_arch_20_motion_0.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_red_arch_20.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_red_arch_20",
+        "sub_task": "Grasp the beige block",
+        "time_range": "00:00 - 00:02",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0044_opened_the_drawer_8_motion_1.gif",
+        "video_name": "opened_the_drawer_8.mp4",
+        "video_key": "opened_the_drawer_8",
+        "sub_task": "Pull the drawer open",
+        "time_range": "00:04-00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0045_opened_the_drawer_4_motion_0.gif",
+        "video_name": "opened_the_drawer_4.mp4",
+        "video_key": "opened_the_drawer_4",
+        "sub_task": "Grasp the drawer handle",
+        "time_range": "00:00-00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0046_opened_the_drawer_4_motion_1.gif",
+        "video_name": "opened_the_drawer_4.mp4",
+        "video_key": "opened_the_drawer_4",
+        "sub_task": "Pull the drawer open",
+        "time_range": "00:03-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0053_put_the_blue_rectangular_block_on_top_of_the_arch_42_motion_1.gif",
+        "video_name": "put_the_blue_rectangular_block_on_top_of_the_arch_42.mp4",
+        "video_key": "put_the_blue_rectangular_block_on_top_of_the_arch_42",
+        "sub_task": "Place the rectangular block on top of the blue arch",
+        "time_range": "00:04-00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0069_put_the_red_object_in_the_pot_on_the_left_burner_10_motion_0.gif",
+        "video_name": "put_the_red_object_in_the_pot_on_the_left_burner_10.mp4",
+        "video_key": "put_the_red_object_in_the_pot_on_the_left_burner_10",
+        "sub_task": "Grasp the pot on the back left burner.",
+        "time_range": "00:01-00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0070_put_the_red_object_in_the_pot_on_the_left_burner_10_motion_1.gif",
+        "video_name": "put_the_red_object_in_the_pot_on_the_left_burner_10.mp4",
+        "video_key": "put_the_red_object_in_the_pot_on_the_left_burner_10",
+        "sub_task": "Place the pot on the front right burner.",
+        "time_range": "00:04-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0096_put_pan_on_stove_and_put_blueberry_in_pan_16_motion_2.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_16.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_16",
+        "sub_task": "Grasp the blueberry from the counter.",
+        "time_range": "00:06-00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0097_put_pan_on_stove_and_put_blueberry_in_pan_16_motion_3.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_16.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_16",
+        "sub_task": "Place the blueberry into the pan.",
+        "time_range": "00:09-00:13",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0100_put_the_red_object_in_the_pot_on_the_left_burner_17_motion_2.gif",
+        "video_name": "put_the_red_object_in_the_pot_on_the_left_burner_17.mp4",
+        "video_key": "put_the_red_object_in_the_pot_on_the_left_burner_17",
+        "sub_task": "Place the middle can",
+        "time_range": "00:08 - 00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0103_put_redcube_in_pan_and_put_pan_on_stove_4_motion_2.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_4.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_4",
+        "sub_task": "Grasp the pan",
+        "time_range": "00:06 - 00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0113_fold_the_cloth_from_bottom_to_top_3_motion_3.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_3.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_3",
+        "sub_task": "Release the cloth",
+        "time_range": "00:07 - 00:09",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0122_put_the_yellow_block_on_top_of_the_red_arch_36_motion_1.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_red_arch_36.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_red_arch_36",
+        "sub_task": "Lift the yellow block",
+        "time_range": "00:02-00:03",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0123_put_the_yellow_block_on_top_of_the_red_arch_36_motion_2.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_red_arch_36.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_red_arch_36",
+        "sub_task": "Move the yellow block above the red arch",
+        "time_range": "00:03-00:05",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0129_fold_the_cloth_from_top_right_to_left_9_motion_1.gif",
+        "video_name": "fold_the_cloth_from_top_right_to_left_9.mp4",
+        "video_key": "fold_the_cloth_from_top_right_to_left_9",
+        "sub_task": "Place the corner on the left side and release the cloth",
+        "time_range": "00:07-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0133_unfold_the_cloth_from_bottom_left_to_the_top_right_18_motion_0.gif",
+        "video_name": "unfold_the_cloth_from_bottom_left_to_the_top_right_18.mp4",
+        "video_key": "unfold_the_cloth_from_bottom_left_to_the_top_right_18",
+        "sub_task": "Grasp the bottom-left corner of the blue cloth",
+        "time_range": "00:00-00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0143_put_redcube_in_pan_and_put_pan_on_stove_11_motion_3.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_11.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_11",
+        "sub_task": "Place the pan on the front-left burner",
+        "time_range": "00:11-00:14",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0158_put_redcube_in_pan_and_put_pan_on_stove_10_motion_0.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_10.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_10",
+        "sub_task": "Grasp the red cube",
+        "time_range": "00:00-00:05",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0176_put_pan_on_stove_and_put_blueberry_in_pan_6_motion_1.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_6.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_6",
+        "sub_task": "Place the pan on the stove",
+        "time_range": "00:03-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0184_put_redcube_in_pan_and_put_pan_on_stove_9_motion_2.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_9.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_9",
+        "sub_task": "Grasp the pan",
+        "time_range": "00:07 - 00:11",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0185_put_redcube_in_pan_and_put_pan_on_stove_9_motion_3.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_9.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_9",
+        "sub_task": "Place the pan on the front left burner",
+        "time_range": "00:11 - 00:15",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0192_unfold_the_cloth_from_bottom_left_to_the_top_right_15_motion_1.gif",
+        "video_name": "unfold_the_cloth_from_bottom_left_to_the_top_right_15.mp4",
+        "video_key": "unfold_the_cloth_from_bottom_left_to_the_top_right_15",
+        "sub_task": "Drag the cloth towards the top right and release it",
+        "time_range": "00:06-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0196_put_the_blue_rectangular_block_on_top_of_the_arch_28_motion_1.gif",
+        "video_name": "put_the_blue_rectangular_block_on_top_of_the_arch_28.mp4",
+        "video_key": "put_the_blue_rectangular_block_on_top_of_the_arch_28",
+        "sub_task": "Lift the blue arch and move it above the yellow block",
+        "time_range": "00:02 - 00:04",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0199_put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_3_motion_1.gif",
+        "video_name": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_3.mp4",
+        "video_key": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_3",
+        "sub_task": "Move the egg over the pot",
+        "time_range": "00:04 - 00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0202_fold_the_cloth_from_bottom_right_to_top_left_20_motion_1.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_20.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_20",
+        "sub_task": "Fold the cloth to the top left",
+        "time_range": "00:04-00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0231_move_the_croissant_next_to_the_carrot_14_motion_2.gif",
+        "video_name": "move_the_croissant_next_to_the_carrot_14.mp4",
+        "video_key": "move_the_croissant_next_to_the_carrot_14",
+        "sub_task": "Place the croissant next to the carrot",
+        "time_range": "00:05 - 00:08",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0232_fold_the_cloth_from_bottom_to_top_16_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_16.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_16",
+        "sub_task": "Grasp the bottom edge of the orange cloth",
+        "time_range": "00:02-00:06",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0233_fold_the_cloth_from_bottom_to_top_16_motion_1.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_16.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_16",
+        "sub_task": "Lift the bottom edge and place it over the top half",
+        "time_range": "00:06-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0244_put_the_red_arch_on_top_of_the_yellow_block_25_motion_1.gif",
+        "video_name": "put_the_red_arch_on_top_of_the_yellow_block_25.mp4",
+        "video_key": "put_the_red_arch_on_top_of_the_yellow_block_25",
+        "sub_task": "Place the red arch on top of the yellow block",
+        "time_range": "00:03 - 00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0250_pick_the_carrot_from_the_corner_and_place_it_on_the_middle_6_motion_0.gif",
+        "video_name": "pick_the_carrot_from_the_corner_and_place_it_on_the_middle_6.mp4",
+        "video_key": "pick_the_carrot_from_the_corner_and_place_it_on_the_middle_6",
+        "sub_task": "Grasp the red spork from the top left corner.",
+        "time_range": "00:01-00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0275_put_the_yellow_cube_on_top_of_the_red_cube_19_motion_2.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_red_cube_19.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_red_cube_19",
+        "sub_task": "Place the yellow cube on the red cube",
+        "time_range": "00:05-00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0279_put_the_yellow_block_on_top_of_the_red_arch_35_motion_3.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_red_arch_35.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_red_arch_35",
+        "sub_task": "Place the yellow block on top of the red block",
+        "time_range": "00:05-00:08",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0286_put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_7_motion_0.gif",
+        "video_name": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_7.mp4",
+        "video_key": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_7",
+        "sub_task": "Grasp the egg",
+        "time_range": "00:06-00:09",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0295_put_the_yellow_block_on_top_of_the_blue_block_20_motion_2.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_blue_block_20.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_blue_block_20",
+        "sub_task": "Move the yellow block above the blue block",
+        "time_range": "00:05-00:06",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0303_put_the_yellow_cube_on_top_of_the_tower_31_motion_1.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_tower_31.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_tower_31",
+        "sub_task": "Place the yellow cube on top of the green block",
+        "time_range": "00:05-00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0306_place_the_silver_pot_on_the_blue_cloth._0_motion_2.gif",
+        "video_name": "place_the_silver_pot_on_the_blue_cloth._0.mp4",
+        "video_key": "place_the_silver_pot_on_the_blue_cloth._0",
+        "sub_task": "Place the silver pot on the blue cloth",
+        "time_range": "00:06 - 00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0322_opened_the_drawer_26_motion_1.gif",
+        "video_name": "opened_the_drawer_26.mp4",
+        "video_key": "opened_the_drawer_26",
+        "sub_task": "Pull the drawer open",
+        "time_range": "00:03-00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0323_place_the_spatula_on_the_far_edge_of_the_table_2_motion_0.gif",
+        "video_name": "place_the_spatula_on_the_far_edge_of_the_table_2.mp4",
+        "video_key": "place_the_spatula_on_the_far_edge_of_the_table_2",
+        "sub_task": "Grasp the spatula",
+        "time_range": "00:00-00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0325_place_the_spatula_on_the_far_edge_of_the_table_2_motion_2.gif",
+        "video_name": "place_the_spatula_on_the_far_edge_of_the_table_2.mp4",
+        "video_key": "place_the_spatula_on_the_far_edge_of_the_table_2",
+        "sub_task": "Move the spatula to the far edge of the table",
+        "time_range": "00:05-00:07",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0331_fold_the_cloth_from_bottom_right_to_top_left_12_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_12.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_12",
+        "sub_task": "Grasp the blue block from the cloth",
+        "time_range": "00:00 - 00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0335_put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_6_motion_0.gif",
+        "video_name": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_6.mp4",
+        "video_key": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_6",
+        "sub_task": "Grasp the egg",
+        "time_range": "00:00-00:02",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0347_put_the_yellow_block_on_top_of_the_red_arch_40_motion_1.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_red_arch_40.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_red_arch_40",
+        "sub_task": "Place the yellow block on top of the red arch",
+        "time_range": "00:04 - 00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0349_move_the_silver_pot_above_the_yellow_brush_1_motion_1.gif",
+        "video_name": "move_the_silver_pot_above_the_yellow_brush_1.mp4",
+        "video_key": "move_the_silver_pot_above_the_yellow_brush_1",
+        "sub_task": "Lift the blue block out of the drawer.",
+        "time_range": "00:03-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0357_fold_the_cloth_from_bottom_right_to_top_left_11_motion_1.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_11.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_11",
+        "sub_task": "Grasp the bottom right corner of the cloth",
+        "time_range": "00:02-00:04",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0364_moved_the_wooden_spatula_to_the_right_side_of_the_sink_7_motion_0.gif",
+        "video_name": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_7.mp4",
+        "video_key": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_7",
+        "sub_task": "Grasp the toy sushi on the right burner",
+        "time_range": "00:00-00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0367_moved_the_wooden_spatula_to_the_right_side_of_the_sink_7_motion_3.gif",
+        "video_name": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_7.mp4",
+        "video_key": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_7",
+        "sub_task": "Place the toy sushi on the counter",
+        "time_range": "00:09-00:11",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0369_move_the_silver_pot_above_the_yellow_brush_15_motion_1.gif",
+        "video_name": "move_the_silver_pot_above_the_yellow_brush_15.mp4",
+        "video_key": "move_the_silver_pot_above_the_yellow_brush_15",
+        "sub_task": "Lift and move the can to the right",
+        "time_range": "00:04-00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0371_put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5_motion_0.gif",
+        "video_name": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5.mp4",
+        "video_key": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5",
+        "sub_task": "Place the pot on the stove",
+        "time_range": "00:00-00:07",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0373_put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5_motion_2.gif",
+        "video_name": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5.mp4",
+        "video_key": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_5",
+        "sub_task": "Place the egg in the pot",
+        "time_range": "00:11-00:14",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0405_put_carrot_in_pan_12_motion_1.gif",
+        "video_name": "put_carrot_in_pan_12.mp4",
+        "video_key": "put_carrot_in_pan_12",
+        "sub_task": "Move the carrot over the pan",
+        "time_range": "00:04-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0409_put_the_orange_carrot_in_the_pot_15_motion_2.gif",
+        "video_name": "put_the_orange_carrot_in_the_pot_15.mp4",
+        "video_key": "put_the_orange_carrot_in_the_pot_15",
+        "sub_task": "Move the orange carrot above the pot",
+        "time_range": "00:06-00:07",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0418_put_spoon_on_plate_and_croissant_in_pot_or_pan_in_sink_0_motion_0.gif",
+        "video_name": "put_spoon_on_plate_and_croissant_in_pot_or_pan_in_sink_0.mp4",
+        "video_key": "put_spoon_on_plate_and_croissant_in_pot_or_pan_in_sink_0",
+        "sub_task": "Place the spoon on the yellow plate",
+        "time_range": "00:00 - 00:05",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0421_put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_0_motion_0.gif",
+        "video_name": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_0.mp4",
+        "video_key": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_0",
+        "sub_task": "Move the egg over the pot",
+        "time_range": "00:00-00:05",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0424_put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_5_motion_1.gif",
+        "video_name": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_5.mp4",
+        "video_key": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_5",
+        "sub_task": "Lift and move the egg over the pot",
+        "time_range": "00:02 - 00:04",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0429_put_pan_on_stove_and_put_blueberry_in_pan_7_motion_1.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_7.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_7",
+        "sub_task": "Grasp the blueberry.",
+        "time_range": "00:06 - 00:10",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0439_put_the_yellow_cube_on_top_of_the_green_cube_38_motion_1.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_green_cube_38.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_green_cube_38",
+        "sub_task": "Move the yellow cube above the green cube",
+        "time_range": "00:06-00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0446_put_the_yellow_cube_on_top_of_the_red_cube_0_motion_1.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_red_cube_0.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_red_cube_0",
+        "sub_task": "Move the yellow cube above the red cube",
+        "time_range": "00:03-00:06",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0448_unfold_the_cloth_from_the_top_left_to_the_bottom_right_2_motion_0.gif",
+        "video_name": "unfold_the_cloth_from_the_top_left_to_the_bottom_right_2.mp4",
+        "video_key": "unfold_the_cloth_from_the_top_left_to_the_bottom_right_2",
+        "sub_task": "Grasp the top left corner of the cloth",
+        "time_range": "00:00 - 00:02",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0458_put_redcube_in_pan_and_put_pan_on_stove_16_motion_2.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_16.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_16",
+        "sub_task": "Move the pan from the right burner to the left burner",
+        "time_range": "00:09-00:13",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0459_put_pan_on_stove_and_put_blueberry_in_pan_17_motion_0.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_17.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_17",
+        "sub_task": "Move the pan from the right burner to the left burner",
+        "time_range": "00:00-00:06",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0471_put_redcube_in_pan_and_put_pan_on_stove_8_motion_1.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_8.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_8",
+        "sub_task": "Place the red cube in the pan",
+        "time_range": "00:03-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0475_put_the_yellow_block_on_top_of_the_blue_block_18_motion_1.gif",
+        "video_name": "put_the_yellow_block_on_top_of_the_blue_block_18.mp4",
+        "video_key": "put_the_yellow_block_on_top_of_the_blue_block_18",
+        "sub_task": "Move the yellow block above the blue block",
+        "time_range": "00:03 - 00:04",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0478_put_the_red_object_on_the_left_burner_7_motion_1.gif",
+        "video_name": "put_the_red_object_on_the_left_burner_7.mp4",
+        "video_key": "put_the_red_object_on_the_left_burner_7",
+        "sub_task": "Lift and move the carrot to the left burner",
+        "time_range": "00:05-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0480_opened_the_drawer_21_motion_1.gif",
+        "video_name": "opened_the_drawer_21.mp4",
+        "video_key": "opened_the_drawer_21",
+        "sub_task": "Pull the drawer open",
+        "time_range": "00:05-00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0482_put_apple_on_plate_and_crossaint_in_pot_or_pan_on_stove_0_motion_1.gif",
+        "video_name": "put_apple_on_plate_and_crossaint_in_pot_or_pan_on_stove_0.mp4",
+        "video_key": "put_apple_on_plate_and_crossaint_in_pot_or_pan_on_stove_0",
+        "sub_task": "Place the apple on the plate",
+        "time_range": "00:03-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0496_put_redcube_in_pan_and_put_pan_on_stove_21_motion_2.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_21.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_21",
+        "sub_task": "Place the pan on the front right burner",
+        "time_range": "00:08-00:12",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0509_moved_the_wooden_spatula_to_the_right_side_of_the_sink_8_motion_1.gif",
+        "video_name": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_8.mp4",
+        "video_key": "moved_the_wooden_spatula_to_the_right_side_of_the_sink_8",
+        "sub_task": "Lift and move the pot to the front right burner.",
+        "time_range": "00:06-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0523_fold_the_cloth_from_bottom_right_to_top_left_0_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_0.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_0",
+        "sub_task": "Move the cloth to the right side of the stovetop",
+        "time_range": "00:00 - 00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0542_put_pan_on_stove_and_put_blueberry_in_pan_4_motion_2.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_4.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_4",
+        "sub_task": "Place the blueberry in the pan",
+        "time_range": "00:12-00:14",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0545_put_the_silver_pot_in_the_yellow_basket_8_motion_2.gif",
+        "video_name": "put_the_silver_pot_in_the_yellow_basket_8.mp4",
+        "video_key": "put_the_silver_pot_in_the_yellow_basket_8",
+        "sub_task": "Move the silver pot over the yellow basket",
+        "time_range": "00:04-00:05",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0546_put_the_silver_pot_in_the_yellow_basket_8_motion_3.gif",
+        "video_name": "put_the_silver_pot_in_the_yellow_basket_8.mp4",
+        "video_key": "put_the_silver_pot_in_the_yellow_basket_8",
+        "sub_task": "Place the silver pot in the yellow basket",
+        "time_range": "00:05-00:08",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0561_put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_3_motion_0.gif",
+        "video_name": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_3.mp4",
+        "video_key": "put_pot_or_pan_on_stove_and_put_egg_in_pot_or_pan_3",
+        "sub_task": "Move the pot from the back-left burner to the back-right burner.",
+        "time_range": "00:00 - 00:05",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0564_move_the_silver_pot_above_the_yellow_brush_35_motion_0.gif",
+        "video_name": "move_the_silver_pot_above_the_yellow_brush_35.mp4",
+        "video_key": "move_the_silver_pot_above_the_yellow_brush_35",
+        "sub_task": "Grasp the silver pot",
+        "time_range": "00:02-00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0574_fold_the_cloth_from_bottom_right_to_top_left_3_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_3.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_3",
+        "sub_task": "Lift the grasped bottom left corner and move it to the top right corner",
+        "time_range": "00:00 - 00:05",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0579_fold_the_cloth_from_bottom_to_top_6_motion_3.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_6.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_6",
+        "sub_task": "Place the bottom corner on the top corner and release the cloth",
+        "time_range": "00:07 - 00:08",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0584_fold_the_cloth_from_bottom_right_to_top_left_15_motion_1.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_15.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_15",
+        "sub_task": "Fold the right side of the cloth over to the left",
+        "time_range": "00:04 - 00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0589_place_the_croissant_inside_the_bowl_16_motion_1.gif",
+        "video_name": "place_the_croissant_inside_the_bowl_16.mp4",
+        "video_key": "place_the_croissant_inside_the_bowl_16",
+        "sub_task": "Move the croissant above the bowl",
+        "time_range": "00:04-00:06",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0590_place_the_croissant_inside_the_bowl_16_motion_2.gif",
+        "video_name": "place_the_croissant_inside_the_bowl_16.mp4",
+        "video_key": "place_the_croissant_inside_the_bowl_16",
+        "sub_task": "Place the croissant inside the bowl",
+        "time_range": "00:06-00:09",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0593_fold_the_cloth_from_bottom_right_to_top_left_10_motion_2.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_10.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_10",
+        "sub_task": "Place the corner on top of the top left corner of the cloth and release it",
+        "time_range": "00:06-00:08",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0596_put_redcube_in_pan_and_put_pan_on_stove_17_motion_0.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_17.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_17",
+        "sub_task": "Grasp the red cube",
+        "time_range": "00:00-00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0597_put_redcube_in_pan_and_put_pan_on_stove_17_motion_1.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_17.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_17",
+        "sub_task": "Place the red cube in the pan",
+        "time_range": "00:03-00:06",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0598_fold_the_cloth_from_bottom_right_to_top_left_35_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_35.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_35",
+        "sub_task": "Approach and grasp the white object at the center of the cloth.",
+        "time_range": "00:00-00:04",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0607_put_the_yellow_cube_on_top_of_the_red_cube_36_motion_1.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_red_cube_36.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_red_cube_36",
+        "sub_task": "Move the yellow cube above the red cube",
+        "time_range": "00:04-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0608_put_the_yellow_cube_on_top_of_the_red_cube_36_motion_2.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_red_cube_36.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_red_cube_36",
+        "sub_task": "Place the yellow cube on top of the red cube",
+        "time_range": "00:05-00:07",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0618_put_pan_on_stove_and_put_blueberry_in_pan_5_motion_3.gif",
+        "video_name": "put_pan_on_stove_and_put_blueberry_in_pan_5.mp4",
+        "video_key": "put_pan_on_stove_and_put_blueberry_in_pan_5",
+        "sub_task": "Place blueberry in pan",
+        "time_range": "00:12-00:13",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0624_put_the_block_on_top_of_the_tower_20_motion_1.gif",
+        "video_name": "put_the_block_on_top_of_the_tower_20.mp4",
+        "video_key": "put_the_block_on_top_of_the_tower_20",
+        "sub_task": "Lift the block",
+        "time_range": "00:04-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0639_put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_8_motion_1.gif",
+        "video_name": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_8.mp4",
+        "video_key": "put_egg_in_pot_or_pan_an_put_pot_or_pan_on_stove_8",
+        "sub_task": "Grasp the pot",
+        "time_range": "00:07-00:09",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0656_put_the_yellow_cube_on_top_of_the_tower_41_motion_3.gif",
+        "video_name": "put_the_yellow_cube_on_top_of_the_tower_41.mp4",
+        "video_key": "put_the_yellow_cube_on_top_of_the_tower_41",
+        "sub_task": "Retract the arm",
+        "time_range": "00:08-00:09",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0658_fold_the_cloth_from_bottom_to_top_1_motion_1.gif",
+        "video_name": "fold_the_cloth_from_bottom_to_top_1.mp4",
+        "video_key": "fold_the_cloth_from_bottom_to_top_1",
+        "sub_task": "Fold the cloth by moving the bottom edge to the top edge",
+        "time_range": "00:02-00:05",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0677_put_redcube_in_pan_and_put_pan_on_stove_13_motion_1.gif",
+        "video_name": "put_redcube_in_pan_and_put_pan_on_stove_13.mp4",
+        "video_key": "put_redcube_in_pan_and_put_pan_on_stove_13",
+        "sub_task": "Grasp the pan",
+        "time_range": "00:06 - 00:11",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0686_fold_the_cloth_from_bottom_right_to_top_left_6_motion_0.gif",
+        "video_name": "fold_the_cloth_from_bottom_right_to_top_left_6.mp4",
+        "video_key": "fold_the_cloth_from_bottom_right_to_top_left_6",
+        "sub_task": "Grasp the bottom right corner of the blue cloth",
+        "time_range": "00:00 - 00:03",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0689_move_the_silver_pot_above_the_yellow_brush_37_motion_0.gif",
+        "video_name": "move_the_silver_pot_above_the_yellow_brush_37.mp4",
+        "video_key": "move_the_silver_pot_above_the_yellow_brush_37",
+        "sub_task": "Grasp the star-shaped block.",
+        "time_range": "00:00 - 00:02",
+        "instruction": "",
+        "motion_index": 0
+    }
+]

@@ -114,6 +114,12 @@ body {
   overflow: hidden;
 }
 
+.publication-caption {
+  font-size: 0.9em; /* Adjust as needed */
+  color: #555; /* Adjust as needed */
+  text-align: left !important; /* Or left, right */
+}
+
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;
@@ -154,4 +160,129 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.container {
+  /* max-width: 1600px; */
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.preview-card {
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  aspect-ratio: 16/9;
+}
+
+.preview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.preview-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #999;
+  font-size: 14px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip .task-label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #4CAF50;
+}
+
+.tooltip .video-name {
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 4px;
+  word-break: break-word;
+}
+
+.tooltip .time-range {
+  color: #FFD700;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.error {
+  text-align: center;
+  color: #d32f2f;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #1976D2;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination .page-info {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #666;
 }

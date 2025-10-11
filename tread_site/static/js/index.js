@@ -1,78 +1,162 @@
-window.HELP_IMPROVE_VIDEOJS = false;
+let metadataBridgeData = [];
+let currentPageBridgeData = 0;
+let metadataLibero = [];
+let currentPageLibero = 0;
+const itemsPerPage = 20; // 4x5 grid
 
-var INTERP_BASE = "./static/interpolation/stacked";
-var NUM_INTERP_FRAMES = 240;
+async function loadMetadata(dataset, gridId, paginationId) {
+    try {
+        const response = await fetch(`/tread_site/static/gifs/${dataset}/metadata.json`);
+        if (!response.ok) throw new Error(`Failed to load metadata for ${dataset}`);
+        const data = await response.json();
 
-var interp_images = [];
-function preloadInterpolationImages() {
-  for (var i = 0; i < NUM_INTERP_FRAMES; i++) {
-    var path = INTERP_BASE + '/' + String(i).padStart(6, '0') + '.jpg';
-    interp_images[i] = new Image();
-    interp_images[i].src = path;
-  }
+        if (dataset === 'motion_gifs_bridge') {
+            metadataBridgeData = data;
+            currentPageBridgeData = 0; // Reset to first page on load
+            renderGrid(dataset, gridId, metadataBridgeData, currentPageBridgeData);
+            renderPagination(dataset, paginationId, metadataBridgeData, currentPageBridgeData);
+        } else if (dataset === 'motion_gifs_libero') {
+            metadataLibero = data;
+            currentPageLibero = 0; // Reset to first page on load
+            renderGrid(dataset, gridId, metadataLibero, currentPageLibero);
+            renderPagination(dataset, paginationId, metadataLibero, currentPageLibero);
+        }
+    } catch (error) {
+        document.getElementById(gridId).innerHTML =
+            `<div class="error">Error loading metadata for ${dataset}: ${error.message}</div>`;
+    }
 }
 
-function setInterpolationImage(i) {
-  var image = interp_images[i];
-  image.ondragstart = function() { return false; };
-  image.oncontextmenu = function() { return false; };
-  $('#interpolation-image-wrapper').empty().append(image);
+function renderGrid(dataset, gridId, metadataVar, currentPageVar) {
+    const grid = document.getElementById(gridId);
+    grid.innerHTML = '';
+    
+    const startIdx = currentPageVar * itemsPerPage;
+    const endIdx = Math.min(startIdx + itemsPerPage, metadataVar.length);
+    
+    for (let i = startIdx; i < endIdx; i++) {
+        const item = metadataVar[i];
+        const card = createPreviewCard(dataset, item);
+        grid.appendChild(card);
+    }
 }
 
+function createPreviewCard(dataset, item) {
+    const card = document.createElement('div');
+    card.className = 'preview-card';
+    
+    const loading = document.createElement('div');
+    loading.className = 'loading';
+    loading.textContent = 'Loading...';
+    card.appendChild(loading);
+    
+    const img = document.createElement('img');
+    img.src = `/tread_site/static/gifs/${dataset}/${item.gif_filename}`;
+    img.alt = item.sub_task;
+    img.style.display = 'none';
+    
+    img.onload = () => {
+        loading.style.display = 'none';
+        img.style.display = 'block';
+    };
+    
+    img.onerror = () => {
+        loading.textContent = 'Failed to load';
+        loading.style.color = '#d32f2f';
+    };
+    
+    card.appendChild(img);
+    
+    // Add hover events
+    card.addEventListener('mouseenter', (e) => showTooltip(e, item));
+    card.addEventListener('mousemove', (e) => moveTooltip(e));
+    card.addEventListener('mouseleave', hideTooltip);
+    
+    return card;
+}
 
-$(document).ready(function() {
-    // Check for click events on the navbar burger icon
-    $(".navbar-burger").click(function() {
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      $(".navbar-burger").toggleClass("is-active");
-      $(".navbar-menu").toggleClass("is-active");
+function showTooltip(e, item) {
+    const tooltip = document.getElementById('tooltip');
+    tooltip.innerHTML = `
+        <div class="task-label">${item.sub_task}</div>
+        <div class="video-name">${item.video_name}</div>
+        <div class="time-range">Time: ${item.time_range}</div>
+    `;
+    tooltip.classList.add('show');
+    moveTooltip(e);
+}
 
-    });
-
-    var options = {
-			slidesToScroll: 1,
-			slidesToShow: 3,
-			loop: true,
-			infinite: true,
-			autoplay: false,
-			autoplaySpeed: 3000,
+function moveTooltip(e) {
+    const tooltip = document.getElementById('tooltip');
+    const x = e.pageX + 10;
+    const y = e.pageY + 10;
+    
+    // Adjust position to keep tooltip on screen
+    const rect = tooltip.getBoundingClientRect();
+    let adjustedX = x;
+    let adjustedY = y;
+    
+    if (x + rect.width > window.innerWidth - 20) {
+        adjustedX = e.pageX - rect.width - 10;
     }
-
-		// Initialize all div with carousel class
-    var carousels = bulmaCarousel.attach('.carousel', options);
-
-    // Loop on each carousel initialized
-    for(var i = 0; i < carousels.length; i++) {
-    	// Add listener to  event
-    	carousels[i].on('before:show', state => {
-    		console.log(state);
-    	});
+    
+    if (y + rect.height > window.innerHeight - 20) {
+        adjustedY = e.pageY - rect.height - 10;
     }
+    
+    tooltip.style.left = adjustedX + 'px';
+    tooltip.style.top = adjustedY + 'px';
+}
 
-    // Access to bulmaCarousel instance of an element
-    var element = document.querySelector('#my-element');
-    if (element && element.bulmaCarousel) {
-    	// bulmaCarousel instance is available as element.bulmaCarousel
-    	element.bulmaCarousel.on('before-show', function(state) {
-    		console.log(state);
-    	});
+function hideTooltip() {
+    const tooltip = document.getElementById('tooltip');
+    tooltip.classList.remove('show');
+}
+
+function renderPagination(dataset, paginationId, metadataVar, currentPageVar) {
+    const pagination = document.getElementById(paginationId);
+    const totalPages = Math.ceil(metadataVar.length / itemsPerPage);
+    
+    pagination.innerHTML = `
+        <button onclick="changePage('${dataset}', -1)" ${currentPageVar === 0 ? 'disabled' : ''}>
+            Previous
+        </button>
+        <span class="page-info">
+            Page ${currentPageVar + 1} of ${totalPages} 
+            (${metadataVar.length} total items)
+        </span>
+        <button onclick="changePage('${dataset}', 1)" ${currentPageVar === totalPages - 1 ? 'disabled' : ''}>
+            Next
+        </button>
+    `;
+}
+
+function changePage(dataset, direction) {
+    let metadataVar, currentPageVar;
+    if (dataset === 'motion_gifs_bridge') {
+        metadataVar = metadataBridgeData;
+        currentPageVar = currentPageBridgeData;
+    } else if (dataset === 'motion_gifs_libero') {
+        metadataVar = metadataLibero;
+        currentPageVar = currentPageLibero;
     }
+    
+    const totalPages = Math.ceil(metadataVar.length / itemsPerPage);
+    currentPageVar = Math.max(0, Math.min(currentPageVar + direction, totalPages - 1));
+    
+    if (dataset === 'motion_gifs_bridge') {
+        currentPageBridgeData = currentPageVar;
+        renderGrid('motion_gifs_bridge', 'grid-bridgedata', metadataBridgeData, currentPageBridgeData);
+        renderPagination('motion_gifs_bridge', 'pagination-bridgedata', metadataBridgeData, currentPageBridgeData);
+    } else if (dataset === 'motion_gifs_libero') {
+        currentPageLibero = currentPageVar;
+        renderGrid('motion_gifs_libero', 'grid-libero', metadataLibero, currentPageLibero);
+        renderPagination('motion_gifs_libero', 'pagination-libero', metadataLibero, currentPageLibero);
+    }
+}
 
-    /*var player = document.getElementById('interpolation-video');
-    player.addEventListener('loadedmetadata', function() {
-      $('#interpolation-slider').on('input', function(event) {
-        console.log(this.value, player.duration);
-        player.currentTime = player.duration / 100 * this.value;
-      })
-    }, false);*/
-    preloadInterpolationImages();
-
-    $('#interpolation-slider').on('input', function(event) {
-      setInterpolationImage(this.value);
-    });
-    setInterpolationImage(0);
-    $('#interpolation-slider').prop('max', NUM_INTERP_FRAMES - 1);
-
-    bulmaSlider.attach();
-
-})
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    loadMetadata('motion_gifs_bridge', 'grid-bridgedata', 'pagination-bridgedata');
+    loadMetadata('motion_gifs_libero', 'grid-libero', 'pagination-libero');
+});

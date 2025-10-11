@@ -71,6 +71,10 @@ redirect_from:
             <span class="author-block"><sup>3</sup>The University of British Columbia</span>
           </div>
 
+          <div class="is-size-5 publication-authors">
+            <span class="author-block" style="margin-top: 10px;">Workshop on Making Sense of Data in Robotics: Composition, Curation, and Interpretability at Scale<br> <b>CoRL 2025</b></span>
+          </div>
+
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
@@ -100,86 +104,33 @@ redirect_from:
   </div>
 </section>
 
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section> -->
-
-
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
 <section class="section">
   <div class="container is-max-desktop">
+    
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
+
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+               
+            <div class="publication-gif">
+                <figure>
+                  <img src="/tread_site/static/gifs/teaser.gif" alt="Method Figure" width="100%">
+                  <figcaption class="publication-caption">
+                      <p style="text-align: center;""> We leverage large-scale pretrained VLMs via a three stage process: </p>
+                      <p>1.) Prompt the VLM to decompose the original task into semantic sub-tasks, using the instruction and first frame for context.</p> 
+                      <p>2.) process the full trajectory video to identify temporal boundaries where each sub-task occurs.</p>
+                      <p>3.) Generate diverse paraphrases for each sub-task instruction, grounded in the visual context. This creates richer descriptions incorporating object attributes and spatial relationships.</p> 
+                          
+                      <p style="margin-top: 10px;"><strong>TREAD</strong> is a scalable framework for augmenting existing robotics datasets into more granular language-action segments, effectively increasing the diversity of our training data without requiring additional data collection.</p>
+
+                      </figcaption>
+                </figure>
+              </div>
+          </div>
+        </div>
+
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -213,93 +164,44 @@ redirect_from:
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Paper video. -->
-    <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Coming Soon...</h2>
-    </div>
   </div>
 </section>
 
 
 <section class="section">
+  <div id="tooltip" class="tooltip"></div>
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <!-- <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="/tread_site/static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="container">
+          <h2 class="title is-3 has-text-centered">Example Segmentations of BridgeData V2</h2>
+          <div id="grid-bridgedata" class="grid"></div>
+          <div id="pagination-bridgedata" class="pagination"></div>
         </div>
-      </div> -->
-      <!--/ Visual Effects. -->
+    </div>
 
-      <!-- Matting. -->
-      <!-- <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="/tread_site/static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
+    <div class="columns is-centered" style="margin-top: 50px;">
+        <div class="container">
+          <h2 class="title is-3 has-text-centered">Example Segmentations of LIBERO 90</h2>
+          <div id="grid-libero" class="grid"></div>
+          <div id="pagination-libero" class="pagination"></div>
         </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Results section -->
+<section class="section">
+  <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Results</h2>
+
+      <div class="publication-image">
+          <figure>
+            <img src="/tread_site/static/images/results.png" alt="Method Figure" width="100%">
+            
+          </figure>
       </div>
-    </div> -->
-    <!--/ Matting. -->
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
 

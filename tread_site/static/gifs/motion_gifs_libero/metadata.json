@@ -1,0 +1,902 @@
+[
+    {
+        "gif_filename": "gif_0003_KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32_motion_0.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32",
+        "sub_task": "Grasp the black bowl",
+        "time_range": "00:00 - 00:12",
+        "instruction": "Put the black bowl on the plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0004_KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32_motion_1.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32",
+        "sub_task": "Lift the black bowl",
+        "time_range": "00:12 - 00:14",
+        "instruction": "Put the black bowl on the plate.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0005_KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32_motion_2.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32",
+        "sub_task": "Move the black bowl above the plate",
+        "time_range": "00:14 - 00:17",
+        "instruction": "Put the black bowl on the plate.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0006_KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32_motion_3.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate_demo_32",
+        "sub_task": "Place the black bowl on the plate",
+        "time_range": "00:17 - 00:26",
+        "instruction": "Put the black bowl on the plate.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0009_LIVING_ROOM_SCENE3_pick_up_the_cream_cheese_and_put_it_in_the_tray_demo_39_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_cream_cheese_and_put_it_in_the_tray_demo_39.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_cream_cheese_and_put_it_in_the_tray_demo_39",
+        "sub_task": "Place cream cheese in tray",
+        "time_range": "00:24 - 00:29",
+        "instruction": "Pick up the cream cheese and put it in the tray.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0011_LIVING_ROOM_SCENE2_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_40_motion_1.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_40.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_40",
+        "sub_task": "Lift the alphabet soup can",
+        "time_range": "00:24 - 00:25",
+        "instruction": "Pick up the alphabet soup and put it in the basket.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0017_KITCHEN_SCENE4_put_the_wine_bottle_in_the_bottom_drawer_of_the_cabinet_demo_43_motion_3.gif",
+        "video_name": "KITCHEN_SCENE4_put_the_wine_bottle_in_the_bottom_drawer_of_the_cabinet_demo_43.mp4",
+        "video_key": "KITCHEN_SCENE4_put_the_wine_bottle_in_the_bottom_drawer_of_the_cabinet_demo_43",
+        "sub_task": "Place the wine bottle inside the bottom drawer",
+        "time_range": "00:17 - 00:22",
+        "instruction": "Put the wine bottle in the bottom drawer of the cabinet.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0022_LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_demo_30_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_demo_30.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_demo_30",
+        "sub_task": "Grasp the tall can (alphabet soup)",
+        "time_range": "00:00 - 00:08",
+        "instruction": "Pick up the alphabet soup and put it in the tray.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0026_LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15",
+        "sub_task": "Grasp the left bowl",
+        "time_range": "00:00 - 00:08",
+        "instruction": "Stack the left bowl on the right bowl and place them in the tray.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0027_LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15_motion_1.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15",
+        "sub_task": "Place the left bowl on the right bowl",
+        "time_range": "00:08 - 00:18",
+        "instruction": "Stack the left bowl on the right bowl and place them in the tray.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0029_LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray_demo_15",
+        "sub_task": "Place the stacked bowls in the tray",
+        "time_range": "00:29 - 00:49",
+        "instruction": "Stack the left bowl on the right bowl and place them in the tray.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0030_KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33_motion_0.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33",
+        "sub_task": "Grasp the ketchup bottle",
+        "time_range": "00:00 - 00:18",
+        "instruction": "Put the ketchup in the top drawer of the cabinet.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0033_KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33_motion_3.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet_demo_33",
+        "sub_task": "Place the ketchup bottle in the top drawer",
+        "time_range": "00:27 - 00:36",
+        "instruction": "Put the ketchup in the top drawer of the cabinet.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0035_LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28",
+        "sub_task": "Grasp the ketchup bottle",
+        "time_range": "00:00 - 00:11",
+        "instruction": "Pick up the ketchup and put it in the tray.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0037_LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray_demo_28",
+        "sub_task": "Move the ketchup bottle above the tray",
+        "time_range": "00:13 - 00:23",
+        "instruction": "Pick up the ketchup and put it in the tray.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0040_KITCHEN_SCENE9_put_the_frying_pan_on_the_cabinet_shelf_demo_34_motion_0.gif",
+        "video_name": "KITCHEN_SCENE9_put_the_frying_pan_on_the_cabinet_shelf_demo_34.mp4",
+        "video_key": "KITCHEN_SCENE9_put_the_frying_pan_on_the_cabinet_shelf_demo_34",
+        "sub_task": "Grasp the frying pan",
+        "time_range": "00:00 - 00:18",
+        "instruction": "Put the frying pan on the cabinet shelf.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0047_LIVING_ROOM_SCENE5_put_the_red_mug_on_the_right_plate_demo_9_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_right_plate_demo_9.mp4",
+        "video_key": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_right_plate_demo_9",
+        "sub_task": "Place the red mug on the left plate",
+        "time_range": "00:18 - 00:27",
+        "instruction": "Put the red mug on the left plate.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0058_LIVING_ROOM_SCENE6_put_the_red_mug_on_the_plate_demo_6_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE6_put_the_red_mug_on_the_plate_demo_6.mp4",
+        "video_key": "LIVING_ROOM_SCENE6_put_the_red_mug_on_the_plate_demo_6",
+        "sub_task": "Place the red mug on the plate",
+        "time_range": "00:18 - 00:22",
+        "instruction": "Put the red mug on the plate.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0069_LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket_demo_6_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket_demo_6.mp4",
+        "video_key": "LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket_demo_6",
+        "sub_task": "Grasp the ketchup bottle",
+        "time_range": "00:00 - 00:11",
+        "instruction": "Pick up the ketchup and put it in the basket.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0082_LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11",
+        "sub_task": "Place the right bowl on the left bowl",
+        "time_range": "00:14 - 00:19",
+        "instruction": "Stack the right bowl on the left bowl and place them in the tray.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0084_LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11_motion_5.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11",
+        "sub_task": "Lift the stacked bowls",
+        "time_range": "00:25 - 00:26",
+        "instruction": "Stack the right bowl on the left bowl and place them in the tray.",
+        "motion_index": 5
+    },
+    {
+        "gif_filename": "gif_0085_LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11_motion_6.gif",
+        "video_name": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray_demo_11",
+        "sub_task": "Move the stacked bowls above the tray",
+        "time_range": "00:26 - 00:34",
+        "instruction": "Stack the right bowl on the left bowl and place them in the tray.",
+        "motion_index": 6
+    },
+    {
+        "gif_filename": "gif_0091_LIVING_ROOM_SCENE3_pick_up_the_butter_and_put_it_in_the_tray_demo_22_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_butter_and_put_it_in_the_tray_demo_22.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_butter_and_put_it_in_the_tray_demo_22",
+        "sub_task": "Move butter above the tray",
+        "time_range": "00:10 - 00:14",
+        "instruction": "Pick up the butter and put it in the tray.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0093_KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate_demo_33_motion_0.gif",
+        "video_name": "KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate_demo_33",
+        "sub_task": "Grasp the front bowl",
+        "time_range": "00:00 - 00:15",
+        "instruction": "Put the black bowl at the front on the plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0103_LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_demo_48_motion_1.gif",
+        "video_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_demo_48.mp4",
+        "video_key": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_demo_48",
+        "sub_task": "Lift the white mug",
+        "time_range": "00:15 - 00:26",
+        "instruction": "Put the white mug on the plate.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0109_KITCHEN_SCENE9_put_the_white_bowl_on_top_of_the_cabinet_demo_8_motion_2.gif",
+        "video_name": "KITCHEN_SCENE9_put_the_white_bowl_on_top_of_the_cabinet_demo_8.mp4",
+        "video_key": "KITCHEN_SCENE9_put_the_white_bowl_on_top_of_the_cabinet_demo_8",
+        "sub_task": "Move the white bowl above the cabinet",
+        "time_range": "00:12 - 00:19",
+        "instruction": "Put the white bowl on top of the cabinet.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0119_KITCHEN_SCENE8_turn_off_the_stove_demo_35_motion_2.gif",
+        "video_name": "KITCHEN_SCENE8_turn_off_the_stove_demo_35.mp4",
+        "video_key": "KITCHEN_SCENE8_turn_off_the_stove_demo_35",
+        "sub_task": "Release the stove knob and retract gripper",
+        "time_range": "00:24 - 00:28",
+        "instruction": "Turn off the stove.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0125_KITCHEN_SCENE1_put_the_black_bowl_on_the_plate_demo_32_motion_0.gif",
+        "video_name": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate_demo_32",
+        "sub_task": "Grasp the black bowl",
+        "time_range": "00:00 - 00:11",
+        "instruction": "Put the black bowl on the plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0136_KITCHEN_SCENE9_put_the_frying_pan_on_top_of_the_cabinet_demo_31_motion_2.gif",
+        "video_name": "KITCHEN_SCENE9_put_the_frying_pan_on_top_of_the_cabinet_demo_31.mp4",
+        "video_key": "KITCHEN_SCENE9_put_the_frying_pan_on_top_of_the_cabinet_demo_31",
+        "sub_task": "Place frying pan on cabinet",
+        "time_range": "00:25 - 00:31",
+        "instruction": "Put the frying pan on top of the cabinet.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0139_KITCHEN_SCENE2_put_the_black_bowl_at_the_back_on_the_plate_demo_40_motion_0.gif",
+        "video_name": "KITCHEN_SCENE2_put_the_black_bowl_at_the_back_on_the_plate_demo_40.mp4",
+        "video_key": "KITCHEN_SCENE2_put_the_black_bowl_at_the_back_on_the_plate_demo_40",
+        "sub_task": "Grasp the black bowl at the back",
+        "time_range": "00:00 - 00:07",
+        "instruction": "Put the black bowl at the back on the plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0147_KITCHEN_SCENE9_put_the_frying_pan_under_the_cabinet_shelf_demo_11_motion_3.gif",
+        "video_name": "KITCHEN_SCENE9_put_the_frying_pan_under_the_cabinet_shelf_demo_11.mp4",
+        "video_key": "KITCHEN_SCENE9_put_the_frying_pan_under_the_cabinet_shelf_demo_11",
+        "sub_task": "Place the frying pan under the cabinet shelf",
+        "time_range": "00:29 - 00:37",
+        "instruction": "Put the frying pan under the cabinet shelf.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0151_KITCHEN_SCENE5_put_the_black_bowl_on_top_of_the_cabinet_demo_39_motion_3.gif",
+        "video_name": "KITCHEN_SCENE5_put_the_black_bowl_on_top_of_the_cabinet_demo_39.mp4",
+        "video_key": "KITCHEN_SCENE5_put_the_black_bowl_on_top_of_the_cabinet_demo_39",
+        "sub_task": "Place the black bowl on top of the cabinet",
+        "time_range": "00:20 - 00:26",
+        "instruction": "Put the black bowl on top of the cabinet.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0157_KITCHEN_SCENE6_close_the_microwave_demo_24_motion_1.gif",
+        "video_name": "KITCHEN_SCENE6_close_the_microwave_demo_24.mp4",
+        "video_key": "KITCHEN_SCENE6_close_the_microwave_demo_24",
+        "sub_task": "Move the yellow and white mug aside and release",
+        "time_range": "00:10 - 00:23",
+        "instruction": "Close the microwave.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0158_KITCHEN_SCENE6_close_the_microwave_demo_24_motion_2.gif",
+        "video_name": "KITCHEN_SCENE6_close_the_microwave_demo_24.mp4",
+        "video_key": "KITCHEN_SCENE6_close_the_microwave_demo_24",
+        "sub_task": "Move to Door",
+        "time_range": "00:23 - 00:28",
+        "instruction": "Close the microwave.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0159_KITCHEN_SCENE6_close_the_microwave_demo_24_motion_3.gif",
+        "video_name": "KITCHEN_SCENE6_close_the_microwave_demo_24.mp4",
+        "video_key": "KITCHEN_SCENE6_close_the_microwave_demo_24",
+        "sub_task": "Push Door Closed",
+        "time_range": "00:28 - 00:31",
+        "instruction": "Close the microwave.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0171_LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20",
+        "sub_task": "Move the tomato sauce can above the tray",
+        "time_range": "00:11 - 00:14",
+        "instruction": "Pick up the tomato sauce and put it in the tray.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0172_LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20.mp4",
+        "video_key": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray_demo_20",
+        "sub_task": "Place the tomato sauce can in the tray",
+        "time_range": "00:14 - 00:18",
+        "instruction": "Pick up the tomato sauce and put it in the tray.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0173_KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39_motion_0.gif",
+        "video_name": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39.mp4",
+        "video_key": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39",
+        "sub_task": "Approach and grasp the wine bottle",
+        "time_range": "00:00 - 00:26",
+        "instruction": "Put the wine bottle on the wine rack.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0175_KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39_motion_2.gif",
+        "video_name": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39.mp4",
+        "video_key": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack_demo_39",
+        "sub_task": "Move the wine bottle to the rack mat",
+        "time_range": "00:29 - 00:35",
+        "instruction": "Put the wine bottle on the wine rack.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0177_KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33_motion_0.gif",
+        "video_name": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33",
+        "sub_task": "Push the top drawer closed",
+        "time_range": "00:00 - 00:11",
+        "instruction": "Close the top drawer of the cabinet and put the black bowl on top of it.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0178_KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33_motion_1.gif",
+        "video_name": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it_demo_33",
+        "sub_task": "Grasp the black bowl",
+        "time_range": "00:11 - 00:28",
+        "instruction": "Close the top drawer of the cabinet and put the black bowl on top of it.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0180_LIVING_ROOM_SCENE1_pick_up_the_tomato_sauce_and_put_it_in_the_basket_demo_3_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE1_pick_up_the_tomato_sauce_and_put_it_in_the_basket_demo_3.mp4",
+        "video_key": "LIVING_ROOM_SCENE1_pick_up_the_tomato_sauce_and_put_it_in_the_basket_demo_3",
+        "sub_task": "Grasp the tomato sauce",
+        "time_range": "00:00 - 00:16",
+        "instruction": "Pick up the tomato sauce and put it in the basket.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0185_KITCHEN_SCENE3_turn_on_the_stove_demo_7_motion_1.gif",
+        "video_name": "KITCHEN_SCENE3_turn_on_the_stove_demo_7.mp4",
+        "video_key": "KITCHEN_SCENE3_turn_on_the_stove_demo_7",
+        "sub_task": "Rotate the stove knob to turn on the stove",
+        "time_range": "00:11 - 00:17",
+        "instruction": "Turn on the stove.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0189_LIVING_ROOM_SCENE1_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_20_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE1_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_20.mp4",
+        "video_key": "LIVING_ROOM_SCENE1_pick_up_the_alphabet_soup_and_put_it_in_the_basket_demo_20",
+        "sub_task": "Place the alphabet soup can in the basket",
+        "time_range": "00:19 - 00:25",
+        "instruction": "Pick up the alphabet soup and put it in the basket.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0193_KITCHEN_SCENE2_put_the_middle_black_bowl_on_top_of_the_cabinet_demo_33_motion_0.gif",
+        "video_name": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_top_of_the_cabinet_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_top_of_the_cabinet_demo_33",
+        "sub_task": "Grasp the middle black bowl",
+        "time_range": "00:00 - 00:10",
+        "instruction": "Put the middle black bowl on top of the cabinet.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0197_KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44_motion_0.gif",
+        "video_name": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44.mp4",
+        "video_key": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44",
+        "sub_task": "Grasp the white bowl",
+        "time_range": "00:00 - 00:10",
+        "instruction": "Put the white bowl on the plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0198_KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44_motion_1.gif",
+        "video_name": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44.mp4",
+        "video_key": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44",
+        "sub_task": "Lift the white bowl",
+        "time_range": "00:10 - 00:19",
+        "instruction": "Put the white bowl on the plate.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0199_KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44_motion_2.gif",
+        "video_name": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44.mp4",
+        "video_key": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate_demo_44",
+        "sub_task": "Move the white bowl above the plate",
+        "time_range": "00:19 - 00:25",
+        "instruction": "Put the white bowl on the plate.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0211_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17_motion_0.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17",
+        "sub_task": "Approach and grasp the top drawer handle",
+        "time_range": "00:03 - 00:10",
+        "instruction": "Open the top drawer of the cabinet and put the bowl in it.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0212_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17_motion_1.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17",
+        "sub_task": "Pull the top drawer open",
+        "time_range": "00:10 - 00:15",
+        "instruction": "Open the top drawer of the cabinet and put the bowl in it.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0213_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17_motion_2.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17",
+        "sub_task": "Release the top drawer handle",
+        "time_range": "00:15 - 00:18",
+        "instruction": "Open the top drawer of the cabinet and put the bowl in it.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0215_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17_motion_4.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17",
+        "sub_task": "Lift the bowl",
+        "time_range": "00:25 - 00:27",
+        "instruction": "Open the top drawer of the cabinet and put the bowl in it.",
+        "motion_index": 4
+    },
+    {
+        "gif_filename": "gif_0217_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17_motion_6.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it_demo_17",
+        "sub_task": "Place and release the bowl inside the top drawer",
+        "time_range": "00:31 - 00:35",
+        "instruction": "Open the top drawer of the cabinet and put the bowl in it.",
+        "motion_index": 6
+    },
+    {
+        "gif_filename": "gif_0219_KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet_demo_5_motion_1.gif",
+        "video_name": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet_demo_5.mp4",
+        "video_key": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet_demo_5",
+        "sub_task": "Push the top drawer closed",
+        "time_range": "00:09 - 00:12",
+        "instruction": "Close the top drawer of the cabinet.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0221_LIVING_ROOM_SCENE4_pick_up_the_salad_dressing_and_put_it_in_the_tray_demo_2_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE4_pick_up_the_salad_dressing_and_put_it_in_the_tray_demo_2.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_pick_up_the_salad_dressing_and_put_it_in_the_tray_demo_2",
+        "sub_task": "Grasp salad dressing",
+        "time_range": "00:00 - 00:09",
+        "instruction": "Pick up the salad dressing and put it in the tray.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0226_KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle_demo_32_motion_0.gif",
+        "video_name": "KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle_demo_32.mp4",
+        "video_key": "KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle_demo_32",
+        "sub_task": "Grasp the front black bowl",
+        "time_range": "00:00 - 00:07",
+        "instruction": "Stack the black bowl at the front on the black bowl in the middle.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0234_LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21",
+        "sub_task": "Approach and Grasp the milk carton",
+        "time_range": "00:00 - 00:12",
+        "instruction": "Pick up the milk and put it in the basket.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0236_LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21",
+        "sub_task": "Move above the basket",
+        "time_range": "00:13 - 00:16",
+        "instruction": "Pick up the milk and put it in the basket.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0238_LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21_motion_4.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket_demo_21",
+        "sub_task": "Retract arm",
+        "time_range": "00:19 - 00:21",
+        "instruction": "Pick up the milk and put it in the basket.",
+        "motion_index": 4
+    },
+    {
+        "gif_filename": "gif_0239_KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9_motion_0.gif",
+        "video_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9.mp4",
+        "video_key": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9",
+        "sub_task": "Grasp the yellow and white mug",
+        "time_range": "00:00 - 00:11",
+        "instruction": "Put the yellow and white mug to the front of the white mug.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0240_KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9_motion_1.gif",
+        "video_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9.mp4",
+        "video_key": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug_demo_9",
+        "sub_task": "Lift the yellow and white mug",
+        "time_range": "00:11 - 00:13",
+        "instruction": "Put the yellow and white mug to the front of the white mug.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0246_KITCHEN_SCENE1_put_the_black_bowl_on_top_of_the_cabinet_demo_25_motion_3.gif",
+        "video_name": "KITCHEN_SCENE1_put_the_black_bowl_on_top_of_the_cabinet_demo_25.mp4",
+        "video_key": "KITCHEN_SCENE1_put_the_black_bowl_on_top_of_the_cabinet_demo_25",
+        "sub_task": "Place the black bowl on the cabinet",
+        "time_range": "00:18 - 00:25",
+        "instruction": "Put the black bowl on top of the cabinet.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0251_KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25_motion_0.gif",
+        "video_name": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25.mp4",
+        "video_key": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25",
+        "sub_task": "Grasp the moka pot",
+        "time_range": "00:00 - 00:16",
+        "instruction": "Put the moka pot on the stove.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0252_KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25_motion_1.gif",
+        "video_name": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25.mp4",
+        "video_key": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove_demo_25",
+        "sub_task": "Lift the moka pot",
+        "time_range": "00:16 - 00:20",
+        "instruction": "Put the moka pot on the stove.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0262_LIVING_ROOM_SCENE1_pick_up_the_cream_cheese_box_and_put_it_in_the_basket_demo_43_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE1_pick_up_the_cream_cheese_box_and_put_it_in_the_basket_demo_43.mp4",
+        "video_key": "LIVING_ROOM_SCENE1_pick_up_the_cream_cheese_box_and_put_it_in_the_basket_demo_43",
+        "sub_task": "Retract gripper",
+        "time_range": "00:27 - 00:30",
+        "instruction": "Pick up the cream cheese box and put it in the basket.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0264_KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_demo_8_motion_1.gif",
+        "video_name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_demo_8.mp4",
+        "video_key": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_demo_8",
+        "sub_task": "Pull the top drawer open",
+        "time_range": "00:10 - 00:15",
+        "instruction": "Open the top drawer of the cabinet.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0266_LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34",
+        "sub_task": "Grasp the chocolate pudding",
+        "time_range": "00:00 - 00:13",
+        "instruction": "Pick up the chocolate pudding and put it in the tray.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0268_LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34.mp4",
+        "video_key": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray_demo_34",
+        "sub_task": "Move gripper above the tray",
+        "time_range": "00:19 - 00:26",
+        "instruction": "Pick up the chocolate pudding and put it in the tray.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0270_KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1_motion_0.gif",
+        "video_name": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1.mp4",
+        "video_key": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1",
+        "sub_task": "Grasp the left moka pot",
+        "time_range": "00:00 - 00:29",
+        "instruction": "Put the left moka pot on the stove.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0271_KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1_motion_1.gif",
+        "video_name": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1.mp4",
+        "video_key": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1",
+        "sub_task": "Lift the left moka pot",
+        "time_range": "00:29 - 00:31",
+        "instruction": "Put the left moka pot on the stove.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0273_KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1_motion_3.gif",
+        "video_name": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1.mp4",
+        "video_key": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo_1",
+        "sub_task": "Place the left moka pot on the stove",
+        "time_range": "00:33 - 00:36",
+        "instruction": "Put the left moka pot on the stove.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0277_KITCHEN_SCENE3_turn_on_the_stove_and_put_the_frying_pan_on_it_demo_39_motion_1.gif",
+        "video_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_frying_pan_on_it_demo_39.mp4",
+        "video_key": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_frying_pan_on_it_demo_39",
+        "sub_task": "Release the stove knob",
+        "time_range": "00:18 - 00:24",
+        "instruction": "Turn on the stove and put the frying pan on it.",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0281_LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17",
+        "sub_task": "Grasp the orange juice",
+        "time_range": "00:00 - 00:17",
+        "instruction": "Pick up the orange juice and put it in the basket.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0284_LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17_motion_3.gif",
+        "video_name": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17.mp4",
+        "video_key": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket_demo_17",
+        "sub_task": "Place the orange juice in the basket",
+        "time_range": "00:26 - 00:31",
+        "instruction": "Pick up the orange juice and put it in the basket.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0285_LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38_motion_0.gif",
+        "video_name": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38.mp4",
+        "video_key": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38",
+        "sub_task": "Grasp the red mug",
+        "time_range": "00:00 - 00:12",
+        "instruction": "Put the red mug on the right plate.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0287_LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38_motion_2.gif",
+        "video_name": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38.mp4",
+        "video_key": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo_38",
+        "sub_task": "Move the red mug above the right plate",
+        "time_range": "00:14 - 00:19",
+        "instruction": "Put the red mug on the right plate.",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0289_KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33_motion_0.gif",
+        "video_name": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33",
+        "sub_task": "Grasp the wine bottle",
+        "time_range": "00:00 - 00:08",
+        "instruction": "Close the bottom drawer of the cabinet and open the top drawer.",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0292_KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33_motion_3.gif",
+        "video_name": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33.mp4",
+        "video_key": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer_demo_33",
+        "sub_task": "Push the bottom drawer closed",
+        "time_range": "00:35 - 00:41",
+        "instruction": "Close the bottom drawer of the cabinet and open the top drawer.",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0296_STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_37_motion_0.gif",
+        "video_name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_37.mp4",
+        "video_key": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_37",
+        "sub_task": "Approach and grasp the black book",
+        "time_range": "00:00-00:12",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0306_STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47_motion_1.gif",
+        "video_name": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47.mp4",
+        "video_key": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47",
+        "sub_task": "Lift the right book",
+        "time_range": "00:14-00:16",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0308_STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47_motion_3.gif",
+        "video_name": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47.mp4",
+        "video_key": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf_demo_47",
+        "sub_task": "Place the book onto the shelf",
+        "time_range": "00:28-00:34",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0316_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_42_motion_1.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_42.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_42",
+        "sub_task": "Lift the book",
+        "time_range": "00:09-00:11",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0326_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34_motion_1.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34",
+        "sub_task": "Lift the book",
+        "time_range": "00:08-00:10",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0327_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34_motion_2.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34",
+        "sub_task": "Move book above the front compartment",
+        "time_range": "00:10-00:15",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0328_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34_motion_3.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_34",
+        "sub_task": "Place the book in the front compartment and release it",
+        "time_range": "00:15-00:23",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0330_STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5_motion_0.gif",
+        "video_name": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5.mp4",
+        "video_key": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5",
+        "sub_task": "Grasp the leftmost book",
+        "time_range": "00:00 - 00:06",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0332_STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5_motion_2.gif",
+        "video_name": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5.mp4",
+        "video_key": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf_demo_5",
+        "sub_task": "Move book to cabinet shelf",
+        "time_range": "00:09 - 00:16",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0334_STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17_motion_0.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17",
+        "sub_task": "Grasp the yellow and white mug",
+        "time_range": "00:01-00:07",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0335_STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17_motion_1.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17",
+        "sub_task": "Lift the mug",
+        "time_range": "00:07-00:08",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0336_STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17_motion_2.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17",
+        "sub_task": "Move the mug to the left of the caddy",
+        "time_range": "00:08-00:14",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0337_STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17_motion_3.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy_demo_17",
+        "sub_task": "Place the mug on the desk to the left of the caddy",
+        "time_range": "00:14-00:18",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0341_STUDY_SCENE3_pick_up_the_white_mug_and_place_it_to_the_right_of_the_caddy_demo_9_motion_2.gif",
+        "video_name": "STUDY_SCENE3_pick_up_the_white_mug_and_place_it_to_the_right_of_the_caddy_demo_9.mp4",
+        "video_key": "STUDY_SCENE3_pick_up_the_white_mug_and_place_it_to_the_right_of_the_caddy_demo_9",
+        "sub_task": "Move the white mug to the left of the caddy",
+        "time_range": "00:09-00:13",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0352_STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28_motion_3.gif",
+        "video_name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28.mp4",
+        "video_key": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28",
+        "sub_task": "Place book into compartment",
+        "time_range": "00:15-00:22",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0353_STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28_motion_4.gif",
+        "video_name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28.mp4",
+        "video_key": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_28",
+        "sub_task": "Retract arm",
+        "time_range": "00:22-00:31",
+        "instruction": "",
+        "motion_index": 4
+    },
+    {
+        "gif_filename": "gif_0354_STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_under_the_cabinet_shelf_demo_43_motion_0.gif",
+        "video_name": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_under_the_cabinet_shelf_demo_43.mp4",
+        "video_key": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_under_the_cabinet_shelf_demo_43",
+        "sub_task": "Grasp the book on the left",
+        "time_range": "00:00-00:10",
+        "instruction": "",
+        "motion_index": 0
+    },
+    {
+        "gif_filename": "gif_0361_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27_motion_2.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27",
+        "sub_task": "Move the book towards the caddy and position it over the front compartment",
+        "time_range": "00:11-00:22",
+        "instruction": "",
+        "motion_index": 2
+    },
+    {
+        "gif_filename": "gif_0362_STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27_motion_3.gif",
+        "video_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27.mp4",
+        "video_key": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy_demo_27",
+        "sub_task": "Lower the book into the compartment and Release the book",
+        "time_range": "00:22-00:30",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0365_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25_motion_1.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25",
+        "sub_task": "Lift the book",
+        "time_range": "00:05-00:07",
+        "instruction": "",
+        "motion_index": 1
+    },
+    {
+        "gif_filename": "gif_0367_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25_motion_3.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy_demo_25",
+        "sub_task": "Place the book in the right compartment",
+        "time_range": "00:12-00:17",
+        "instruction": "",
+        "motion_index": 3
+    },
+    {
+        "gif_filename": "gif_0370_STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_demo_19_motion_1.gif",
+        "video_name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_demo_19.mp4",
+        "video_key": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_demo_19",
+        "sub_task": "Lift the book",
+        "time_range": "00:07-00:09",
+        "instruction": "",
+        "motion_index": 1
+    }
+]
