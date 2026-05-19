@@ -17,8 +17,6 @@ Publications
 
 {% include base_path %}
 
-<h6>* indicates equal contribution. </h6>
-
 <table id="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.publications reversed %}
