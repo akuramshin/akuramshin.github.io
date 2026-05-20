@@ -29,7 +29,7 @@ authors:
     link:
 links:
   - name: paper
-    link: https://link.springer.com/article/10.1007/s10514-023-10136-2
+    link: https://arxiv.org/abs/2212.09672
   - name: project page
     link: https://ac-rad.github.io/robot-chemist-tamp/
 ---

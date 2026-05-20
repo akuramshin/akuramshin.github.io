@@ -5,7 +5,7 @@ excerpt: ''
 date: 2023-05-01
 venue: 'The Conference on Robot Learning (CoRL) 2025'
 paperurl: 'https://arxiv.org/abs/2506.18123'
-imgurl: 'roboarena.png'
+imgurl: 'roboarena.jpeg'
 show: true
 authors:
   - name: Pranav Atreya
