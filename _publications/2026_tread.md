@@ -4,7 +4,7 @@ collection: publications
 excerpt: ''
 date: 2023-05-01
 venue: 'IEEE International Conference on Robotics & Automation (ICRA) 2026'
-paperurl: 'https://openreview.net/forum?id=M6M5W0lmaY'
+paperurl: 'https://akuramshin.github.io/files/2026_relabeling_robot_data.pdf'
 imgurl: 'tread.png'
 show: true
 authors:
@@ -19,7 +19,7 @@ authors:
     link:
 links:
   - name: paper
-    link: https://openreview.net/forum?id=M6M5W0lmaY
+    link: https://akuramshin.github.io/files/2026_relabeling_robot_data.pdf
   - name: project page
     link: https://akuramshin.github.io/tread/
 ---
