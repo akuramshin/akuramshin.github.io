@@ -33,7 +33,9 @@ Experience
 <table id="experiences" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.experiences %}
-    {% include archive-single-cv.html %}
+    {% if post.show != false %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}
 </tbody>
 </table>
@@ -44,7 +46,9 @@ Projects
 <table id="projects" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
   {% for post in site.projects %}
-    {% include archive-single-project.html %}
+    {% if post.show != false %}
+      {% include archive-single-project.html %}
+    {% endif %}
   {% endfor %}
 </tbody>
 </table>
