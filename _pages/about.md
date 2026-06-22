@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Robotics + ML researcher building intelligent embodied systems 
+Robotics + ML researcher trying to make robots useful
 
 I am a masters student at [Mila](https://mila.quebec/en) and the [Université de Montréal](https://www.umontreal.ca/en/), supervised by [Prof. Glen Berseth](https://neo-x.github.io/) at the [Robotics and Embodied AI Lab (REAL)](http://montrealrobotics.ca/). My interests lie at the intersection of robotics and machine learning. 
 

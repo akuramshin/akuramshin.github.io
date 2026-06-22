@@ -19,7 +19,7 @@ authors:
     link:
 links:
   - name: paper
-    link: https://akuramshin.github.io/files/2026_relabeling_robot_data.pdf
+    link: https://arxiv.org/abs/2606.10918
   - name: project page
     link: https://akuramshin.github.io/tread/
 ---
