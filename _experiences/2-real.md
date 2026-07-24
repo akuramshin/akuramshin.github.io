@@ -7,6 +7,6 @@ description: |
 
   In parallel, I developed a full teleoperation and data-collection stack for a Franka robot arm integrated with a LEAP dexterous hand, enabling collection of demonstrations for training and evaluation of manipulation policies.
 start: 2024-09-01
-end: "2026-08-01"
+end: "2026-08-31"
 imgurl: 'real.png'
 ---
